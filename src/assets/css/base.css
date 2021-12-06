@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  min-height: 980px;
+  min-width: 1200px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+html,
+#app {
+  width: 100%;
+  height: 100%;
+}
+.el-sub-menu__icon-arrow {
+  top: 6% !important;
+  right: -95px !important;
+}
+.el-aside {
+  transition: width 0.3s ease;
+}
+.el-main.page-content {
+  min-width: 400px;
+}
